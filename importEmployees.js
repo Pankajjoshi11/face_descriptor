@@ -1,9 +1,10 @@
 const mongoose = require('mongoose');
 const fs = require('fs');
 const path = require('path');
+require('dotenv').config();
 
 // Define your MongoDB URI and database name
-const MONGO_URI = 'mongodb+srv://joshipankaj70451:pankaj1011@cluster0.yq99ce1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; // Replace with your MongoDB URI
+const MONGO_URI = process.env.MONGODB_URI
 const DATABASE_NAME = 'test'; // Replace with your database name
 
 // Define the Employee schema and model

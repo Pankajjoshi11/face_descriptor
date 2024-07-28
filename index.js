@@ -51,7 +51,7 @@ const saveDescriptorToFile = async (imagePath, outputPath) => {
 };
 
 // Usage example
-const imagePath = './images/ramiz.jpg'; // Replace with the actual path or URL of your image
-const outputPath = path.join(__dirname, 'face_descriptor_3.txt');
+const imagePath = './images/pankaj.jpg'; // Replace with the actual path or URL of your image
+const outputPath = path.join(__dirname, 'face_descriptor.txt');
 saveDescriptorToFile(imagePath, outputPath);
 //https://loq-user-manual.vercel.app/    user manual
